@@ -1,5 +1,7 @@
 Assignment_2_0446171
+
 Constructing a Neural Network for Handwritten Digit Recognition using TensorFlow
+
 Recognition of handwriting has two basic applications in both Machine Learning and Computer Vision. The research project that I studied in this study is the one concerning the creation of an artificial neural network which can efficiently recognize handwritten characters and TensorFlow develops it. The MNIST data set (5000 training samples of handwriting digits) each image is represented by a 20x20 square grid in grayscale, each pixel is converted into its own floating point number and trained along with the pixel grid whose image is represented by the original grayscaled image. The pixel energy is then transformed into a 400-dimensional vector. Inthe data matrix X was written in the first row.
 
 An multi-output softmax function is involved in a multiclass neural network that provides N outputs, one of which is chosen as the predicted answer. Vector z is the result of linear function applied in the output layer and is passed in softmax function. Receiving by softmax the outcomes are tightly couped in between 0 and 1 and their sum is 1, so the probabilities are determined. Softmax function shows an outstanding capacity to accommodate bigger data volume with the more inputs.
